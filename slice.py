@@ -258,7 +258,7 @@ print("""#include <avr/pgmspace.h>
 #define ap3   4
 #define bp3   3
 #define bm3   2
-int slowness = 1;""")
+int slowness = 0;""")
 print("const int instructions[][3] PROGMEM = {")
 for x, y, z in instructions:
     print(f"  {{{x}, {y}, {z}}},")
@@ -340,7 +340,7 @@ with open("forrender.py", "w") as f:
     for x, y, z in instructions:
         f.write(f"[{x}, {y}, {z}],")
     f.write("]")
-def compute_time(instructions, slowness=1):
+def compute_time(instructions, slowness=0):
     time_per_step = 4 * slowness / 1000.0  # seconds
     total_steps = 0
 
