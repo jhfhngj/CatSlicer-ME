@@ -32,7 +32,7 @@ ArchitecturesAllowed=x64compatible
 ; the 64-bit view of the registry.
 ArchitecturesInstallIn64BitMode=x64compatible
 DisableProgramGroupPage=yes
-LicenseFile=C:\Users\ezzel\CatSlicer\CatSlicer-ME\LICENSE
+LicenseFile=C:\Users\your username\CatSlicer\CatSlicer-ME\LICENSE
 ; Remove the following line to run in administrative install mode (install for all users).
 PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
@@ -44,17 +44,17 @@ WizardStyle=classic dynamic windows11
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\dist\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\frontend.py"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\forrender.py"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\README.md"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\render.mp4"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\render.py"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\slice.py"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\install.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\flashme.ino"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\ezzel\CatSlicer\CatSlicer-ME\requirements.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\dist\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\frontend.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\forrender.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\README.md"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\render.mp4"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\render.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\slice.py"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\install.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\flashme.ino"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\your username\CatSlicer\CatSlicer-ME\requirements.txt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
