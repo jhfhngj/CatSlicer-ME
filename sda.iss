@@ -4,7 +4,7 @@
 ; Non-commercial use only
 
 #define MyAppName "CatSlicer"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.0.1"
 #define MyAppPublisher "jhfhngj"
 #define MyAppURL "https://github.com/jhfhngj/CatSlicer-ME"
 #define MyAppExeName "fix.exe"

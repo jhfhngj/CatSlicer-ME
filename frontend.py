@@ -59,7 +59,7 @@ current = light
 
 def main(page: ft.Page):
     page.title = "CatSlicer"
-    page.add(ft.Text("CatSlicer 1.0", size=30, color=current["text"]))
+    page.add(ft.Text("CatSlicer 1.0.1", size=30, color=current["text"]))
     page.add(ft.Text("Hello!", size=15, color=current["text"]))
     page.add(ft.Text("Ready to slice an object?", size=15, color=current["text"]))
     page.add(ft.TextButton("Slice",on_click=lambda _: slce(page)))

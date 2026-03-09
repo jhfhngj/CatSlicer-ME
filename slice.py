@@ -340,7 +340,7 @@ with open("forrender.py", "w") as f:
     for x, y, z in instructions:
         f.write(f"[{x}, {y}, {z}],")
     f.write("]")
-def compute_time(instructions, slowness=0):
+def compute_time(instructions, slowness=0.2):
     time_per_step = 4 * slowness / 1000.0  # seconds
     total_steps = 0
 
